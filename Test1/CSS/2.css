@@ -1,0 +1,126 @@
+*{
+	font-family: Roboto;
+	font-size: 30px;
+	padding: 0px;
+	margin: 0;
+	text-decoration: none;
+	color: black;
+}
+header{ 
+	background-image: url("../image/slide6.png");
+	background-position: bottom;
+	height: 52vh;
+	background-attachment: fixed;
+	color: white;
+	background-size: 100% 400px;
+}
+
+.container{
+
+}
+.Hr{
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+
+.btn_xemthem {
+	margin-top: 10px;
+	width: 300px;
+	margin: 0 auto;
+}
+.btn_xemthem a{
+	font-size: 20px;
+	font-weight: 100%;
+	border-radius: 0px;
+	background:red;
+	border: 0px;
+	width: 300px;
+}
+
+
+.card-group{
+	margin-bottom: 10px;
+	border:0px;
+	color:red;
+}
+.card{
+	margin: 0 10px;
+	border: 0px;
+}
+.card-body{
+	border: 0px;
+	color: red;
+}
+
+
+
+
+.nav_bar {
+	float: right;
+	margin-right: 300px;
+}
+.nav_bar li{
+	display: inline-block;
+	margin: 10px 0;
+}
+.nav_bar li a{
+	margin: 0 10px;
+	text-align: center;
+	color: white;
+	font-size: 90%;
+}
+.nav_bar li a:hover{
+	color: #ffff;
+	background-color: grey;
+	border-radius: 5px;
+}
+
+.clearfix::after{
+	content : " ";
+	display: table;
+	clear: both;
+}
+
+
+.input-group{
+	color:  black;
+
+}
+.form_dk {
+    width: 50%;
+    float: left;
+   	margin: 100px;
+}
+.form_dk label span{
+	color: red;
+}
+.form_dk label{
+    float: none;
+    font-weight:normal;
+    text-transform: uppercase;
+    width: 100%;
+}
+.form_dk .input-group input{
+    width:  100%;
+    float: none;
+    border: 1px solid #eee;
+}
+.form_dk button {
+    background: black;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius:0;
+    padding: 6px;
+    color:#FFF !important;
+    margin-top: 10px;
+    border: none;
+}
+.form_dk button:hover{
+    background: #999;
+    border: thin #999;
+}
+
+.form_dk select{
+	margin-left:  50px;
+}
